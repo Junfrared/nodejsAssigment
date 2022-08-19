@@ -1,0 +1,30 @@
+{
+  "name": "nodejsassigment",
+  "version": "1.0.0",
+  "description": "Node Js Assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Junfrared/nodejsAssigment.git"
+  },
+  "keywords": [
+    "Node",
+    "Assignment"
+  ],
+  "author": "Junaid Syed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Junfrared/nodejsAssigment/issues"
+  },
+  "homepage": "https://github.com/Junfrared/nodejsAssigment#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
