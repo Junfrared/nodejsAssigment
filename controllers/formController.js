@@ -36,4 +36,19 @@ const firstResponse = (req, res) => {
     res.send(`<h1>This is my first response</h1>`);
 };
 
-module.exports = { getForm, submitForm, firstResponse };
+const secondResponse = (req, res) => {
+    console.log("my second response");
+    res.send(`<h2>This is my second response ${res}</h2>`);
+};
+
+const pageNotFound = (req, res, next) => {
+    console.log("404");
+    res.status(404).send(`<h3>this my 404 page ${res}</h3>`);
+};
+module.exports = {
+    getForm,
+    submitForm,
+    firstResponse,
+    secondResponse,
+    pageNotFound,
+};
